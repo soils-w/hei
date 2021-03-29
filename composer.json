@@ -1,0 +1,24 @@
+{
+    "name": "hei/hei",
+    "description": "my heiheihei",
+    "require": {
+        "php": ">=7.1.0",
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-orm": "^2.0",
+        "psr/container": "~1.0",
+        "soils-w/miniroute": "~1.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "service\\": "service"
+        },
+        "psr-0": {
+            "": "extend"
+        },
+        "files": [
+            "service/helper.php"
+        ]
+    }
+}
