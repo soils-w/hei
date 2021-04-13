@@ -6,7 +6,8 @@
         "symfony/var-dumper": "^4.2",
         "topthink/think-orm": "^2.0",
         "psr/container": "~1.0",
-        "soils-w/miniroute": "~1.0"
+        "soils-w/miniroute": "~1.0",
+        "predis/predis": "*"
 
     },
     "autoload": {
